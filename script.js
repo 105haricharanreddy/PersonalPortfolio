@@ -3,10 +3,7 @@
 const contactForm = document.getElementById("contactForm");
 
 // Email validation function
-function validateEmail(email) {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailPattern.test(email);
-}
+
 
 // Handle form submission
 contactForm.addEventListener("submit", function(event) {
