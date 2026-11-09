@@ -198,3 +198,69 @@ footer {
         padding: 45px 7%;
     }
 }
+
+/* Version 2 Improvements */
+
+/* Education Section */
+#education {
+    background-color: #e8dccb;
+}
+
+#education div {
+    background-color: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+#education h3 {
+    color: #65452e;
+    margin-bottom: 10px;
+}
+
+/* Improved Project Cards */
+#projects div {
+    border-left: 5px solid #a8794e;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+#projects div:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #38291f;
+    color: white;
+}
+
+#achievements h2 {
+    color: #e8c99e;
+}
+
+#achievements ul {
+    margin-left: 25px;
+}
+
+#achievements li {
+    padding: 8px;
+}
+
+/* Improved Navigation */
+nav ul li a {
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #d6a66a;
+}
+
+/* Mobile Navigation */
+@media (max-width: 800px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
